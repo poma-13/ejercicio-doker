@@ -1,0 +1,31 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.header_contenido{
+  background-color:  #0c70bf;
+  display: flex;
+  justify-content: space-around;
+}
+.header_contenido-amburguesa{
+  margin-top: 18px;
+}
+
+.header_amburguesa{
+  border-bottom: solid 2px white;
+  width: 22px;
+  margin-bottom: 4px;
+}
+.header_contenido-imagen{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.header_imagenes{
+  width: 100px;
+}
+.header-raya{
+  border-left: solid 2px
+white;
+margin: 13px 0px 11px 0px;
+}
