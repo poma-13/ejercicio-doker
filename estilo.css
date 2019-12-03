@@ -35,9 +35,37 @@ align-items: center;
 
 .economia_contenido{
   position: relative;
+  margin-bottom:20px;
+ 
+}
+
+.economia_contenido::before{
+  content: '';
+  height: 100%;
+ 
+  background: linear-gradient(0deg,#445e76 0,rgba(134,174,204,0) 76%);
+
 }
 .economia_parrafo{
   position: absolute;
-  margin-bottom: 0;
+  bottom: 0;
+  padding: 1rem;
   
+}
+
+.economia_sub_titulo{
+  color: white;
+  font-size: 15px;
+}
+.contenido_link-economia{
+  text-decoration: none;
+color:white;
+border: solid 1px;
+padding:3px;
+}
+.contenido_link-redaccion{
+  text-decoration: none;
+color:
+white;
+font-size: 14px;
 }
